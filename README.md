@@ -1,22 +1,69 @@
-# Lista de Tarefas Interativa
+# ✅ Lista de Tarefas Interativa
 
-Estou começando a explorar o **GitHub** e a publicar alguns exercícios. 
+**App web de gerenciamento de tarefas com JavaScript vanilla — design responsivo e minimalista**
 
-Este é um projeto simples de uma **Lista de Tarefas Interativa** feita com **HTML**, **CSS** e **JavaScript**. Ele permite ao usuário adicionar tarefas a uma lista de maneira intuitiva. O design é responsivo e minimalista, com validação para garantir que o nome da tarefa tenha pelo menos um caractere.
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=flat-square)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=flat-square)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=flat-square)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
-## Tecnologias Utilizadas
-- **HTML**
-- **CSS**
-- **JavaScript**
+---
+
+## Funcionalidades
+
+- Adicionar tarefas com validação (mínimo 1 caractere)
+- Marcar tarefas como concluídas
+- Remover tarefas da lista
+- Design responsivo (funciona em mobile e desktop)
+- Interface minimalista e intuitiva
+
+---
+
+## Tech Stack
+
+| Tecnologia | Uso |
+|---|---|
+| HTML5 | Estrutura semântica |
+| CSS3 | Estilização responsiva |
+| JavaScript ES6+ | Lógica e manipulação do DOM |
+
+Zero dependências externas — 100% vanilla.
+
+---
 
 ## Como Usar
-1. Clone o repositório ou faça o download dos arquivos.
-2. Abra o arquivo `index.html` em um navegador de sua escolha.
-3. Digite suas tarefas no campo de texto e clique no botão **Adicionar** para adicioná-las à lista.
 
-## Contribuições
-Sinta-se à vontade para contribuir com este projeto. Se você encontrar algum bug ou tiver ideias para melhorias, fique à vontade para criar uma **issue** ou **pull request**.
+```bash
+git clone https://github.com/thaisrosalina/lista-de-tarefas.git
+cd lista-de-tarefas
+```
+
+Abra `index.html` no navegador.
+
+Ou acesse direto via GitHub Pages (se habilitado).
+
+---
+
+## Estrutura
+
+```
+lista-de-tarefas/
+├── index.html    # Página principal
+├── main.css      # Estilos
+├── main.js       # Lógica da aplicação
+└── LICENSE       # MIT
+```
+
+---
+
+## Autora
+
+**Thais Oliveira** — Desenvolvedora Web Full-Stack
+
+[![GitHub](https://img.shields.io/badge/GitHub-thaisrosalina-181717?logo=github)](https://github.com/thaisrosalina)
+
+---
 
 ## Licença
-Este projeto é de código aberto e distribuído sob a licença **MIT**.
 
+[MIT](LICENSE)
